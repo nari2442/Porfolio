@@ -1,0 +1,37 @@
+.footer-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.icon{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .footer-items-container{
+        display: none;
+    }
+}
+.footer-item-name{
+    font-size: 17px;
+}
+.footer-mobile-items{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+@media screen and (min-width: 768px){
+    .footer-mobile-items{
+        display: none;
+        
+    }
+}
+.footer-item{
+    margin-bottom: 20px;
+    
+}
+.footer-item-detail{
+    font-weight: normal;
+    font-size: 16px;
+}
